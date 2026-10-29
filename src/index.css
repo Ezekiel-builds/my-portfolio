@@ -1,0 +1,55 @@
+@import url(
+  'https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap'
+  );
+
+  @import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-straight/css/uicons-regular-straight.css');
+
+  /* Arrow Icon */
+  @import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-thin-rounded/css/uicons-thin-rounded.css');
+
+  /* Platforms Icons */
+  @import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css');
+  @import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css');
+  @import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Backgrounds */
+  --body_bg: rgba(250, 249, 246, 100%);
+  --main_bg: rgba(251, 251, 250, 90%);
+  --card_bg: #FFFFFF;
+  --card_mute--bg: rgba(231, 229, 228, 90%);
+
+  /* Strokes */
+  --border: rgba(231, 229, 228, 90%);
+  --border_mute: rgba(214, 211, 209, 70%);
+
+  /* Colors */
+  --color_dark: #292524;
+  --color_gray: #78716C;
+  --icon_color: #A8A29E;
+  --color_mute: #57534E;
+  --color_highlight: #1C1917;
+  --color_alt: #44403C;
+
+  /* Font Sizes */
+  --font_h4: clamp(2rem, 1.5vw, 20px);
+
+  /* Font Families */
+  --body_font: "Geist", sans-serif;
+  --header_font: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: var(--body_bg);
+  font-family: var(--body_font);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--header_font);
+}
